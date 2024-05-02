@@ -1,7 +1,7 @@
 import numpy as np
 from loss_function import cross_entropy_error
 from activation_function import softmax
-from graidient import numerical_gradient
+from basic.gradient import numerical_gradient
 
 
 class SimpleNet:

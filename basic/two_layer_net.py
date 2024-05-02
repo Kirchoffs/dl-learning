@@ -1,7 +1,7 @@
 import numpy as np
 from activation_function import sigmoid, softmax, sigmoid_grad
 from loss_function import cross_entropy_error
-from graidient import numerical_gradient
+from basic.gradient import numerical_gradient
 
 class TwoLayerNet:
     def __init__(self, input_size, hidden_size, output_size, weight_init_std = 0.01):
